@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hunter Dog</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="game-area" id="game-area"></div>
+
+      <div class="game-panel">
+        <p class="timer">Timer: <span></span></p>
+        <button class="start-btn">Start</button>
+        <button class="stop-btn">Stop</button>
+
+        <div>
+          <div class="counter">Score: <span id="hit-counter"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <audio id="dogBark" src="sounds/dogBark.mp3" loop></audio>
+    <audio id="duckFalls" src="sounds/duckFalls.mp3"></audio>
+    <audio id="duckQuack" src="sounds/duckQuack.mp3"></audio>
+    <audio id="gunShot" src="sounds/gunShot.mp3"></audio>
+    <audio id="title" src="sounds/title.mp3"></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
