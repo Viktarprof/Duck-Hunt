@@ -18,4 +18,4 @@ The player must shoot ducks and earn points while the timer is running.
 - Score tracking and countdown timer.  
 - Built entirely with **JavaScript, HTML, and CSS**.
 
-
+![screenshot](DuckGame.png)
